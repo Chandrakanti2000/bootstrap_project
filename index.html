@@ -3,375 +3,628 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap5 Project | First Project</title>
+    <title>FocusFlare | A Photograpghy Website</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+      integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+      crossorigin="anonymous"
+    />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
   </head>
   <body>
-    <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">FoodiXpress</a>
+    <!-- Navbar starts here -->
+
+    <!-- <nav class="navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2">
+                    <a class="navbar-brand" href="#">FocusFlare</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-lg-8">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                         
+                        </ul>
+                </div>
+        
+            </div>
+            <div class="col-lg-2">
+                <a class="text-dark px-2" href="#"><ion-icon name="logo-facebook" class="icon"></ion-icon></a>
+                <a class="text-dark px-2" href="#"><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
+                <a class="text-dark px-2" href="#"><ion-icon name="logo-twitter" class="icon"></ion-icon></a>
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FocusFlare</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+             
+            </ul>
+
+            <a class="text-dark px-2" href="#"><ion-icon name="logo-facebook" class="icon"></ion-icon></a>
+            <a class="text-dark px-2" href="#"><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
+            <a class="text-dark px-2" href="#"><ion-icon name="logo-twitter" class="icon"></ion-icon></a>
+            
+          </div>
+        </div>
+      </nav> -->
+    <header id="home-page">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-2" href="#"
+            >Focus⨠<span class="text-info">Flare</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-semibold text-info"
+                  aria-current="page"
+                  href="#home-page"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#about-me">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold"
+                  href="#services"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">Portrait Photography</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Event Photography</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Commercial Photography</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Specialty Photography</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Creative Photography</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Photography Packages</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Additional Services</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Workshops & Training</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Seasonal Specials</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#teams">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active"data-aos="fade-right">
+            <img
+              src="./assets/images/heroSectionPic.jpeg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>Capturing Moments Creating Memories</h5>
+              <p>
+                Welcome to our photography sanctuary, where every click tells a
+                story. Dive into a world of vivid imagery and timeless elegance.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/b5img/banner.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>Capturing Moments Creating Memories</h5>
+              <p>
+                Welcome to our photography sanctuary, where every click tells a
+                story. Dive into a world of vivid imagery and timeless elegance.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/b5img/banner1.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>Capturing Moments Creating Memories</h5>
+              <p>
+                Welcome to our photography sanctuary, where every click tells a
+                story. Dive into a world of vivid imagery and timeless elegance.
+              </p>
+            </div>
+          </div>
+        </div>
         <button
-          class="navbar-toggler"
+          class="carousel-control-prev"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#how-it-works"
-                >How It Works</a
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- Navbar ends here -->
+
+    <!-- hero section starts here -->
+
+    <!-- <section class="hero-section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 align-content-center">
+                    <img src="./assets/images/heroSectionPic.jpg" class="img-fluid" alt="">
+                    <h1>Capturing Moments
+                        Creating Memories</h1>
+                    <p>Welcome to our photography sanctuary, where every
+                        click tells a story. Dive into a world of vivid imagery
+                        and timeless elegance.</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="about" id="about-me">
+      <div class="container-fluid text-center my-5">
+        <h1>About <span class="text-info">Me</span></h1>
+        <hr class="w-25 m-auto" />
+      </div>
+      <div class="row ">
+        <div class="col-lg-6"data-aos="fade-right"data-aos-duration="2000">
+          <h1>What do you <span class="text-info">want to know?</span></h1>
+          <p class="p-2">
+            We’re here to help you with any questions you might have! Whether
+            you’re curious about our photography services, want to know more
+            about our pricing packages, need advice on preparing for your photo
+            shoot, or have specific ideas you'd like to discuss, we’re all ears.
+            Interested in seeing more of our portfolio or learning about the
+            creative process behind our work? Maybe you have questions about
+            booking a session or what to expect on the day of your shoot.
+            Whatever it is, feel free to ask—we’re excited to share more about
+            what we do and how we can capture your unique moments beautifully.
+          </p>
+          <button type="button" class="btn btn-light">More About Me</button>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  My Journey
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+                <div class="accordion-body">
+                  <b>From Hobby to Profession:</b> <br>
+                   I've been passionate about photography since childhood, starting with a simple camera and a love for capturing life's moments. Over the years, I've honed my skills through education, experience, and countless hours behind the lens. My journey has taken me from amateur snapshots to professional shoots, and I continue to learn and grow every day.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                My Philosophy
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <b>Capturing Genuine Moments:</b> <br>
+                  I believe that every photograph should tell a story and evoke emotion. My approach is to create a relaxed and enjoyable atmosphere during shoots, allowing the true personality and essence of my subjects to shine through. I strive for authenticity and aim to capture moments that are both beautiful and meaningful.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                My Gear
+              </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <b>Professional Equipment:</b><br>
+                  High-end DSLR cameras and lenses.
+                  Advanced lighting and studio setups.
+                  Latest photo editing software and tools.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  My Process
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <b>Client Experience:</b> <br>
+                  Initial consultation to understand your vision.
+                  Creative and collaborative photo sessions.
+                  Detailed post-processing to enhance every shot.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 m-auto text-end" data-aos="fade-left"data-aos-duration="3000">
+          <img src="./assets/images/b5img/ab1.jpg" class="img-fluid img-thumbnail" alt="" />
         </div>
       </div>
-    </nav>
-    <!-- navbar end -->
+    </section>
+    <!-- hero section ends here -->
 
-    <!-- Hero section start -->
+    <!-- services section starts here  -->
 
-    <section class="hero-section" id="home" data-aos="fade-right">
+    <section class="services py-5 bg-light" id="services">
       <div class="container">
+        <div class="container-fluid text-center my-5">
+          <h1>Our <span class="text-info">Services</span></h1>
+          <hr class="w-25 m-auto" />
+        </div>
         <div class="row">
-          <div class="col-lg-6 py-5 align-content-center">
-            <h1 class="text-white fw-bold">
-              DELICIOUS DELIVERED: DISCOVER A WORLD FULL OF FOOD
-            </h1>
-            <p class="text-white pt-4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
-              laboriosam. Possimus dolore a quibusdam alias aliquam quis vel
-              deserunt fugit. Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Asperiores maiores eveniet est culpa vel quae fuga molestias
-              provident tempora sed!
-            </p>
-            <button class="btn mt-3 px-4 py-3 bg-warning text-black">
-              ORDER NOW
-            </button>
+          <div class="col-lg-4"data-aos="fade-left"data-aos-duration="2000">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Capturing Your Best Moments</h5>
+                <p class="card-text"><b>Individual Portraits:</b> Perfect for professional headshots, personal branding, or capturing your unique style.
+                  <br><b>Family Portraits:</b> Cherish the love and bond of your family with beautifully composed family shots.
+                  <br><b>Maternity Shoots:</b> Celebrate the beauty of motherhood with stunning maternity portraits.
+                  <br><b>Senior Pictures:</b> Mark this milestone with creative and memorable senior photos.
+                  </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6">
-            <div class="section-img">
-              <img src="assets/hero.png" class="img-fluid hero-img" alt="" />
+          <div class="col-lg-4" data-aos="fade-down" data-aos-duration="2000">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Preserving Life's Special Occasions</h5>
+                <p class="card-text"><b>Weddings:</b> From the candid moments to the grand ceremony, we ensure every detail is captured.
+                  <br><b>Engagements:</b> Document your love story with romantic and personalized engagement photos.
+                  <br><b>Corporate Events: </b> Professional coverage for conferences, parties, and other corporate gatherings.
+                  <br><b>Birthdays and Anniversaries: </b> Relive your special celebrations with vibrant and joyful images.
+
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-right" data-aos-duration="2000">
+            <div class="card">
+              <div class="card-body">
+                <!-- <i icon="fa fa-users"></i> -->
+                <h5 class="card-title">Showcasing Your Brand in the Best Light</h5>
+                <p class="card-text"><b>Product Photography:</b> High-quality images that highlight the best features of your products.
+                  <br><b>Food Photography: </b> Deliciously styled photos that make your dishes look irresistible.
+                  <br><b>Fashion Photography: </b> Capture the essence of your brand with striking fashion shots.
+                  <br><b>Real Estate Photography: </b> Professional images that showcase properties in their best light.
+                  </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section ends here  -->
+
+    <!-- Our team section starts here -->
+
+    <section class="team my-5 text-center" id="teams">
+      <div class="container">
+        <div class="container-fluid text-center my-5">
+          <h1>Our <span class="text-info">Teams</span></h1>
+          <hr class="w-25 m-auto" />
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <img src="./assets/images/b5img/b5img/s4.jpg" class="img-fluid rounded-circle border border-info" alt="">
+                <h5 class="card-title">Aryan</h5>
+                <p class="card-text">Hello! I’m Aryan, a passionate photographer with a knack for capturing the essence of life’s most memorable moments. With a background in visual arts and over a decade of professional experience, I specialize in portraits, event photography, and commercial shoots. My approach is all about storytelling—each photo I take aims to reflect the unique beauty and emotion of the moment. 
+              
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <img src="./assets/images/b5img/b5img/s4.jpg" class="img-fluid rounded-circle border border-info" alt="">
+                <h5 class="card-title">Aryan</h5>
+                <p class="card-text">Hello! I’m Aryan, a passionate photographer with a knack for capturing the essence of life’s most memorable moments. With a background in visual arts and over a decade of professional experience, I specialize in portraits, event photography, and commercial shoots. My approach is all about storytelling—each photo I take aims to reflect the unique beauty and emotion of the moment. 
+              
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <img src="./assets/images/b5img/b5img/s4.jpg" class="img-fluid rounded-circle border border-info" alt="">
+                <h5 class="card-title">Aryan</h5>
+                <p class="card-text">Hello! I’m Aryan, a passionate photographer with a knack for capturing the essence of life’s most memorable moments. With a background in visual arts and over a decade of professional experience, I specialize in portraits, event photography, and commercial shoots. My approach is all about storytelling—each photo I take aims to reflect the unique beauty and emotion of the moment. 
+              
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Hero section end -->
+    <!-- Our team section ends here -->
 
-    <!-- form section starts here -->
 
-    <section class="form">
-      <div class="container">
+    <!-- Contact section starts here -->
+    <section class="contact" id="contact">
+      <div class="container py-5">
+        <div class="container-fluid text-center my-5">
+          <h1>Feel Free <span class="text-info">to Connect Us</span></h1>
+          <hr class="w-50 m-auto" />
+        </div>
         <div class="row">
-          <div class="col-lg-6">
-            <form action="" class="shadow-sm">
-              <input type="text" placeholder="Enter Your Name" class="form-control my-4">
-              <input type="number" placeholder="Enter Your Mobile Number" class="form-control my-4">
-              <select class="form-control my-4">
-                <option selected>Choose Your Order</option>
-                <option value="Burger">Burger</option>
-                <option value="lavacake">Lavacake</option>
-                <option value="Pizza">Pizza</option>
-                <option value="Sushi">Sushi</option>
-              </select>
-              <button type="submit" class="btn btn-warning my-4">ORDER</button>
+          <div class="col-lg-6 " style="border: 3px solid rgb(111, 236, 226); border-radius: 5px;">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Odisha</option>
+                  <option>Karnataka</option>
+                  <option>Kerala</option>
+                  <option>Maharashtra</option>
+                  <option>UP</option>
+                  <option>MP</option>
+                  <option>Goa</option>      
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
             </form>
           </div>
-
-          <div class="col-lg-6">
-            <img src="https://j.gifs.com/836lP3.gif" alt="" class="img-fluid py-2 rounded border-black">
+          <div class="col-lg-6 m-auto text-end">
+            
+                <img src="./assets/images/b5img/s2.jpg" class="img-fluid" alt="">
+              
+          
           </div>
+        </div>
+       
         </div>
       </div>
     </section>
 
+    <!-- Contact section ends here -->
+
+    <div class="container-fluid text-white text-center bg-info fs-4">
+      Developed By CB With 🤍
+    </div>
 
 
-    <!-- form section starts here -->
 
-    <!-- card section start -->
-    <section class="card" id="features">
-      <section class="container">
-        <h2 class="text-black fw-bold text-center py-5">Featured Products</h2>
-      </section>
 
-      <section class="container">
-        <div class="d-flex">
-          <div class="row">
-            <div class="col-lg-3" data-aos="fade-right" data-aos-duration="2000">
-              <div class="card">
-                <img src="assets/burger.jpg" class="img-fluid" alt="" />
-                <div class="card-body">
-                  <div class="card-title">Featured Food Name</div>
-                  <div class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolorem ex reiciendis adipisci.
-                  </div>
-                  <button class="btn mt-3 px-2 py-2 bg-warning text-black">
-                    ORDER NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3" data-aos="fade-down" data-aos-duration="2000">
-              <div class="card">
-                <img src="assets/sushi.jpg" alt="" />
-                <div class="card-body">
-                  <div class="card-title">Featured Food Name</div>
-                  <div class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolorem ex reiciendis adipisci.
-                  </div>
-                  <button class="btn mt-3 px-2 py-2 bg-warning text-black">
-                    ORDER NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2000">
-              <div class="card">
-                <img src="assets/pizza.jpg" alt="" />
-                <div class="card-body">
-                  <div class="card-title">Featured Food Name</div>
-                  <div class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolorem ex reiciendis adipisci.
-                  </div>
-                  <button class="btn mt-3 px-2 py-2 bg-warning text-black">
-                    ORDER NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3" data-aos="fade-left" data-aos-duration="2000">
-              <div class="card">
-                <img src="assets/burger.jpg" alt="" />
-                <div class="card-body">
-                  <div class="card-title">Featured Food Name</div>
-                  <div class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Dolorem ex reiciendis adipisci.
-                  </div>
-                  <button class="btn mt-3 px-2 py-2 bg-warning text-black">
-                    ORDER NOW
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <!-- card section end -->
-
-    <!-- how it works section start -->
-
-    <section class="how-it-works" id="how-it-works">
-      <h2 class="text-dark text-center py-5 fw-bold">How foodixpress works?</h2>
-      <div class="container py-3">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="d-flex section-how-card p-4 flex-column shadow-lg mb-4">
-              <ion-icon name="search"></ion-icon>
-              <h3 class="fw-bolder text-dark">Browse our Product</h3>
-              <p class="fw-semibold">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-                voluptas beatae, mollitia ad tempore vero. Similique tempora et
-                neque exercitationem!
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mb-4">
-            <div class="d-flex p-4 flex-column shadow-lg">
-              <ion-icon name="checkmark"></ion-icon>
-              <h3 class="text-dark fw-bolder">Browse our product</h3>
-              <p class="fw-semibold">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-                voluptas beatae, mollitia ad tempore vero. Similique tempora et
-                neque exercitationem!
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mb-4">
-            <div class="d-flex flex-column p-4 shadow-lg">
-              <ion-icon name="pricetag"></ion-icon>
-              <h3 class="text-dark fw-bolder">Browse our Product</h3>
-              <p class="fw-semibold">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-                voluptas beatae, mollitia ad tempore vero. Similique tempora et
-                neque exercitationem!
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mb-4">
-            <div class="d-flex flex-column p-4 shadow-lg">
-              <ion-icon name="cart"></ion-icon>
-              <h3 class="text-dark fw-bolder">Browse our Product</h3>
-              <p class="fw-semibold">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-                voluptas beatae, mollitia ad tempore vero. Similique tempora et
-                neque exercitationem!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- how it works section end -->
-
-    <!-- Testimonial section starts -->
-
-    <section class="testimonials py-5">
-      <div class="container text-white text-center py-3">
-        <h2 class="text-center fw-bolder">What Our Customer Says</h2>
-        <div id="carouselId" class="carousel slide " data-bs-ride="carousel">
-          <ol style="list-style: none;">
-            <li
-              data-bs-target="#carouselId"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="First slide"
-            ></li>
-            <li
-              data-bs-target="#carouselId"
-              data-bs-slide-to="1"
-              aria-label="Second slide"
-            ></li>
-            <li
-              data-bs-target="#carouselId"
-              data-bs-slide-to="2"
-              aria-label="Third slide"
-            ></li>
-          </ol>
-          <div class="carousel-inner py-5" role="listbox">
-            <div class="carousel-item active">
-              <img src="assets/sarah.jpg" alt="First slide" class="rounded-circle"/>
-              <h3 class="text-white fw-bold">Sarah Arha</h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Blanditiis alias fugit corporis omnis harum deleniti!
-              </p>
-            </div>
-            <div class="carousel-item">
-              <img src="assets/john.jpg" alt="Second slide" class="rounded-circle"/>
-              <h3 class="text-white fw-bold">John Paul</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia libero enim, repellendus sint cum dolorem.
-              </p>
-            </div>
-            <div class="carousel-item">
-              <img src="assets/sarah.jpg" alt="Third slide" class="rounded-circle"/>
-              <h3 class="text-white fw-bold">Sarah Khan</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-                libero, ipsa quam voluptate ad doloremque.
-              </p>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselId"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselId"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </section>
-    <!-- Testimonial section end -->
-
-    <!-- footer section starts -->
-
-    <section class="footer py-4 id=">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <h3 class="fw-bold pb-3">Visit Us</h3>
-            <p>Bhubaneswar, <br>Odisha, <br>India</p>
-            <a class="text-dark" href="mailto:chandrakanti@gmail.com">chandrakanti@gmail.com</a>
-          </div>
-
-          <div class="col-lg-4" id="contact">
-            <h3 class="fw-bold pb-4">Our Links</h3>
-            <div class="d-flex flex-column">
-              <a class="text-dark" href="#">Home</a>
-              <a class="text-dark" href="#">How it works</a>
-              <a class="text-dark" href="#">Features</a>
-              <a class="text-dark" href="#">Contact</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <h3 class="fw-bold pb-3">Follow Us</h3>
-            <a class="text-dark px-2" href="#"><ion-icon name="logo-facebook" class="icon"></ion-icon></a>
-                <a class="text-dark px-2" href="#"><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
-                <a class="text-dark px-2" href="#"><ion-icon name="logo-github" class="icon"></ion-icon></a>
-
-        </div>
-
-        <div class="row py-4">
-          <div class="col-lg-12 text-center">
-            <p>Created by Social Develops Team with 💜</p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- footer section end -->
-
-    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
