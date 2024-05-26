@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusFlare | A Photograpghy Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+      integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </head>
+  <body>
+    <!-- Navbar starts here -->
+      
+    <header id="home-page">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-2" href="./index.html">Focus⨠<span class="text-info">Flare</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-semibold text-info"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold"
+                  href="./services.html"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="./services.html">Portrait Photography</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./services.html">Event Photography</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./services.html">Commercial Photography</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./services.html">Creative Photography</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./services.html">Photography Packages</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./services.html">Additional Services</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./services.html">Workshops & Training</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./services.html">Seasonal Specials</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./team.html">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-aos="zoom-in" data-aos-duration="3000">
+            <img
+              src="./assets/images/heroSectionPic.jpeg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>Capturing Moments Creating Memories</h5>
+              <p>
+                Welcome to our photography sanctuary, where every click tells a
+                story. Dive into a world of vivid imagery and timeless elegance.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/b5img/banner.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>Capturing Moments Creating Memories</h5>
+              <p>
+                Welcome to our photography sanctuary, where every click tells a
+                story. Dive into a world of vivid imagery and timeless elegance.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/b5img/banner1.jpg"
+              class="d-block w-100 img-fluid"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block">
+              <h5>Capturing Moments Creating Memories</h5>
+              <p>
+                Welcome to our photography sanctuary, where every click tells a
+                story. Dive into a world of vivid imagery and timeless elegance.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- Navbar ends here -->
+
+  <section class="container-fluid">
+    <div class="row my-5">
+      <h1 class="text-center">Services <span class="text-info"> We Provide</span></h1>
+    </div>
+    <div class="row">
+      <h2 class="text-center py-4">Portrait Photography</h2>
+      <div class="col-lg-4"data-aos="fade-right" data-aos-duration="3000">
+        <img src="./assets/images/portraitPhotography.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-7"data-aos="fade-left" data-aos-duration="3000">
+        <p>At Focus Flare, I specialize in portrait photography that captures the essence of your unique personality. With a keen eye for detail and a passion for storytelling, I create stunning portraits that highlight your individuality and beauty. Whether you need professional headshots, family portraits, or personal branding images, I provide a comfortable and relaxed environment, ensuring you feel at ease in front of the camera. Each session is tailored to reflect your style and preferences, resulting in timeless photos that you’ll cherish forever. Let’s work together to create beautiful, authentic portraits that truly represent you.</p>
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="text-center py-4">Event Photography</h2>
+      <div class="col-lg-7"data-aos="fade-right" data-aos-duration="3000">
+        <p>At Focus Flare, we specialize in capturing the vibrant essence of your events, ensuring every significant moment is beautifully preserved. From corporate gatherings and festive celebrations to intimate parties and grand galas, our event photography services are designed to document the energy and emotion of your special occasions. With a keen eye for detail and a passion for storytelling, we provide high-quality images that reflect the unique atmosphere of your event. Trust Focus Flare to deliver professional, candid, and dynamic photographs that will allow you to relive the excitement and joy of your events for years to come.</p>
+      </div>
+      <div class="col-lg-4"data-aos="fade-left" data-aos-duration="3000">
+        <img src="./assets/images/eventPhotography.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="text-center py-4">Commercial Photography</h2>
+      <div class="col-lg-4"data-aos="fade-right" data-aos-duration="3000">
+        <img src="./assets/images/commercialPhotography.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-7"data-aos="fade-left" data-aos-duration="3000">
+        <p>At Focus Flare, your premier destination for exceptional commercial photography. Since our inception in 2024, we have been dedicated to helping businesses shine through stunning visual storytelling. Specializing in product, advertising, and corporate photography, we combine creativity with technical expertise to deliver images that elevate your brand and captivate your audience. Our tailored approach ensures each project reflects your unique vision and goals, providing high-quality visuals that enhance your marketing efforts. Trust Focus Flare to illuminate your business with striking photographs that make a lasting impression. Partner with us to bring your commercial vision to life.</p>
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="text-center py-4">Creative Photography</h2>
+      <div class="col-lg-7"data-aos="fade-right" data-aos-duration="3000">
+        <p>At Focus Flare, where creativity meets photography! Since 2024, we have been dedicated to transforming moments into extraordinary visual stories. Our passion lies in creative photography, capturing the essence of your unique moments with an artistic flair. From conceptual portraits to imaginative event coverage, we blend technical expertise with a visionary approach to produce images that are both stunning and evocative. At Focus Flare, we believe every picture should not only capture a moment but also tell a captivating story. Join us on this creative journey, and let's create unforgettable memories together. Thank you for choosing Focus Flare!</p>     
+      </div>
+      <div class="col-lg-4"data-aos="fade-left" data-aos-duration="3000">
+        <img src="./assets/images/wedding3.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="text-center py-4">Photography Packages</h2>
+      <div class="col-lg-7"data-aos="fade-right" data-aos-duration="3000">
+        <p>At Focus Flare, We're thrilled to offer a range of carefully curated photography packages designed to meet your needs and exceed your expectations. Whether you're planning a wedding, a family portrait session, or a corporate event, we have a package tailored just for you. Our packages include a variety of options, from full-day coverage to customizable add-ons, ensuring that every detail is captured with precision and artistry. With a commitment to quality and creativity, we strive to deliver stunning images that you'll cherish for a lifetime. Explore our packages today and let us help you tell your story through the lens of Focus Flare Photography.</p>
+      </div>
+      <div class="col-lg-4"data-aos="fade-left" data-aos-duration="3000">
+        <img src="./assets/images/photographyPackages.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row m-auto">
+      <h2 class="text-center py-4">Additional Services</h2>
+      <div class="col-lg-4"data-aos="fade-right" data-aos-duration="3000">
+        <img src="./assets/images/additionalPic1.jpg" class="img-fluid" alt="">
+        </p>
+      </div>
+      <div class="col-lg-7"data-aos="fade-left" data-aos-duration="3000">
+        <p>At Focus Flare, we go beyond the traditional to offer a range of additional services designed to enhance your photography experience. From professional retouching and editing to personalized album design, we ensure every detail of your images is perfected to your satisfaction. Our photo booth rental adds an element of fun to any event, capturing candid moments and creating lasting memories for you and your guests. For businesses and professionals, our commercial photography services provide high-quality images that elevate your brand and showcase your products or services effectively. Whatever your photography needs, we're here to exceed your expectations and bring your vision to life with flair and precision.</p>
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="text-center py-4">Workshops & Training</h2>
+      <div class="col-lg-7"data-aos="fade-right" data-aos-duration="3000">
+        <p>At Focus Flare, your premier destination for photography workshops and training since 2024. At Focus Flare, we're passionate about empowering photographers of all levels to hone their skills and unleash their creative potential. Our workshops cover a wide range of topics, from mastering camera settings to advanced editing techniques, taught by industry-leading professionals. Whether you're a beginner looking to learn the basics or a seasoned photographer seeking to refine your craft, our hands-on approach and personalized instruction ensure an enriching learning experience. Join our community of like-minded photographers and take your passion for photography to new heights with Focus Flare.</p>
+      </div>
+      <div class="col-lg-4"data-aos="fade-left" data-aos-duration="3000">
+        <img src="./assets/images/workshop&training.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="text-center py-4">Seasonal Specials</h2>
+      <div class="col-lg-7"data-aos="fade-right" data-aos-duration="3000">
+        <p>At Focus Flare Photography, we're thrilled to introduce our seasonal specials designed to add an extra sparkle to your cherished moments. As each season brings its own unique beauty, we're dedicated to capturing the essence of every moment, be it a cozy winter engagement, a vibrant spring wedding, a sun-kissed summer family gathering, or a colorful autumn portrait session. With our keen eye for detail and commitment to excellence, we ensure that each image reflects the warmth, joy, and spirit of the season. Embrace the magic of the moment with Focus Flare Photography, where every season is a reason to celebrate.</p>
+      </div>
+      <div class="col-lg-4"data-aos="fade-left" data-aos-duration="3000">
+        <img src="./assets/images/seasonalSpecials.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section starts -->
+
+  <section class="footer py-4 id=">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3 class="fw-bold pb-3">Visit Us</h3>
+          <p>Bhubaneswar, <br>Odisha, <br>India</p>
+          <a class="text-dark" href="mailto:chandrakanti2000@gmail.com">chandrakanti2000@gmail.com</a>
+        </div>
+
+        <div class="col-lg-4" id="contact">
+          <h3 class="fw-bold pb-4">Our Links</h3>
+          <div class="d-flex flex-column">
+            <a class="text-dark" href="#">Home</a>
+            <a class="text-dark" href="#">How it works</a>
+            <a class="text-dark" href="#">Features</a>
+            <a class="text-dark" href="#">Contact</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <h3 class="fw-bold pb-3">Follow Us</h3>
+          <a class="text-dark px-2" href="https://www.facebook.com/pchandrakati.behera" target="_blank"><ion-icon name="logo-facebook" class="icon"></ion-icon></a>
+              <a class="text-dark px-2" href="https://www.instagram.com/iam_chandrakanti/" target="_blank"><ion-icon name="logo-instagram" class="icon"></ion-icon></a>
+              <a class="text-dark px-2" href="https://github.com/Chandrakanti2000" target="_blank"><ion-icon name="logo-github" class="icon"></ion-icon></a>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- footer section end -->
+
+    <div class="container-fluid text-white text-center bg-info fs-4">
+      Developed By CB With 🤍
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
